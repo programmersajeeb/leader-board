@@ -6,20 +6,24 @@
     padding: 0;
     border-radius: 0;
   }
+  .players, .blogs{
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* top players styles */
   .players{
-    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 0;
   }
   .player{
     flex-direction: column;
     justify-content: center;
   }
+  .player img{
+    width: 65px;
+    height: 65px;
+  }
   .player-name {
     margin-left: 0;
-}
-hr{
-  width: 100%;
+    font-size: 16px;
 }
 
 
@@ -31,7 +35,8 @@ hr{
 
 
 
-.top-blogs, .lates-courses{
+
+.lates-courses{
   display: none;
 }
 
