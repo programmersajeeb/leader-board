@@ -3,8 +3,11 @@
   /* common styles or utilities */
   .container{
     width: 100%;
-    padding: 0;
+    padding: 0 10px;
     border-radius: 0;
+  }
+  .top-players,.top-blogs{
+    padding-left: 10px;
   }
   .players, .blogs{
     grid-template-columns: repeat(1, 1fr);
@@ -25,8 +28,13 @@
     margin-left: 0;
     font-size: 16px;
 }
-
-
+/* top blogs styles */
+.blog{
+  flex-direction: column;
+}
+.blog-info {
+  margin-left: 0;
+}
 
 
 
