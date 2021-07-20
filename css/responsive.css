@@ -12,6 +12,9 @@
   .players, .blogs{
     grid-template-columns: repeat(1, 1fr);
   }
+  .player,.blog{
+    flex-direction: column;
+  }
   /* top players styles */
   .players{
     grid-row-gap: 0;
@@ -29,24 +32,24 @@
     font-size: 16px;
 }
 /* top blogs styles */
-.blog{
-  flex-direction: column;
-}
 .blog-info {
   margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
-.lates-courses{
-  display: none;
+/* courses styles */
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 278px;
 }
+
+
+
+
+
+
+
+
 
 
 
